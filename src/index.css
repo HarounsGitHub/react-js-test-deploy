@@ -1,0 +1,46 @@
+.App {
+  margin: 0;
+}
+
+/* P.S.: Roboto font from Google Fonts is imported in index.html */
+
+/* Styling for the body */
+body {
+  /* Flexbox and centering of the body's content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Main & substitutes fonts */
+  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Work Sans", sans-serif;
+  /* This below along .form-group's height: were made so I can center the form verticaly in viewport */
+  min-height: 100vh;
+}
+
+/* Styling for the form */
+
+form {
+  padding: 50px;
+  width: 540px;
+}
+
+/* Styling for the .form-group class */
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  height: 100%;
+}
+
+/* Styling for the labels and checkbox text */
+
+label {
+  color: blue;
+}
+
+.form-check,
+button {
+  margin: 3px 13px;
+}
